@@ -1,0 +1,112 @@
+
+
+body{
+
+background-image: url(../photos/books.jpg);
+background-attachment: fixed;
+background-size: contain;
+
+
+}
+
+
+
+.layerr{
+
+background-color: rgba(0,0,0,0.5);
+}
+
+#bookMaker,
+#bookMakerRecord {
+
+    background-color: rgba(238, 238, 238, 0.966);
+    border-radius: 7px;
+}
+
+h2 {
+
+    color:white;
+    font-weight: 600;
+    text-shadow: 0 5px 5px rgba(0, 0, 0, 0.559);
+}
+
+p {
+    color: white;
+        font-weight: 200;
+        text-shadow: 0 5px 5px rgba(0, 0, 0, 0.559);
+}
+
+.line {
+
+    height: 1px;
+    background-color: rgba(247, 241, 241, 0.324);
+
+
+}
+
+.bM {
+    position: relative;
+    box-shadow:0 3px 7px rgb(0 0 0 / 0.2);
+}
+
+#bookMakerRecord{
+box-shadow: 0 3px 7px rgb(0 0 0 / 0.2);
+
+
+}
+
+.bM i {
+
+    font-size:70px;
+    color:rgba(98, 60, 134, 0.826);
+    text-shadow: 0 3px 5px rgb(0 0 0 / 0.2);
+
+}
+
+.main-color{
+
+    background-color: rgba(98, 60, 134, 0.826) !important;
+    color: beige !important;
+   
+}
+
+
+
+.main-color:hover{
+
+background-color: rgba(122, 58, 181, 0.826) !important;
+    color: beige;
+   
+
+}
+
+.deleteAll-style{
+
+position: relative;
+left:-18px;
+border-radius: 0px 20px  20px 0;
+box-shadow: 0 3px 3px rgba(0, 0, 0, 0.358);
+
+}
+
+#deleteAll i{
+
+font-size: 20px;
+
+}
+
+.visit-color{
+
+    background-color: rgba(27, 27, 216, 0.662);
+}
+
+.white-text{
+    color: white;
+}
+
+.container{
+
+width: 75%;
+
+
+}

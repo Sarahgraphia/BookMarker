@@ -1,0 +1,111 @@
+
+<html>
+
+<head>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+   <link rel="stylesheet" href="fontawesome/css/all.min.css" />
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+
+<body>
+
+  <div class="layerr py-5">
+
+<div class="container">
+
+
+ <div class=" m-auto py-4 my-1">
+
+<h2>Bookmarker</h2>
+
+<div class="line mt-5" ></div>
+</div>
+
+<div  id="bookMaker" class=" m-auto h-70 text-center pb-4 mb-4 bM ">
+  <div class="d-flex justify-content-between "><i class="fa-solid fa-bookmark"></i></div>
+  <div class="clearfix"></div>
+<h4 class="py-4 fw-bold ">Bookmark your favorite sites</h4>
+
+<label class=" fw-bold py-3" for="">Site Name</label>
+
+<input type="text" class="form-control w-75 m-auto " placeholder="Bookmark Name" id="siteName">
+
+<div class="alert alert-danger py-1 my-4 w-75 m-auto d-none" id="nameAlert" role="alert">
+ Bookmark Name is from 3 to 25 characters and shouldn't include numbers or some symbols like (*&$%@).
+</div>
+
+<label class=" fw-bold py-3"  for="">Site URL</label>
+<input type="text" class="form-control w-75 m-auto" id="siteURL" placeholder="Website URL">
+<div class="alert alert-danger py-1 my-4 w-75 m-auto d-none" id="urlAlert" role="alert">
+ Please Enter a valid and secured URL. ex: https://www.google.com
+</div>
+<button id="addSite"  class="btn main-color my-3 px-3">Add Bookmark</button>
+
+<div class="alert alert-danger py-1 my-4 w-75 m-auto d-none" id="bothAlert" role="alert">
+ Please Enter Values of Bookmark name and Url !
+</div>
+
+
+
+</div>
+
+<div  id="bookMakerRecord" class=" m-auto mb-5 py-4 d-none">
+
+ <table class="table table-striped text-center">
+ 
+ <input type="text" class="form-control w-75 m-auto my-3 " id="searchInput" placeholder="Search by Site-Name">
+<button class="btn btn-danger m-3 px-3 deleteAll-style " data-bs-toggle="modal" data-bs-target="#staticBackdrop" > 
+  <i class="fa-regular fa-circle-xmark"></i> Delete All</button>
+  
+      <tbody id="tableBody" class="">
+
+
+
+
+      </tbody>
+     </table>
+
+
+</div>
+  <div class=" m-auto py-4 my-1">
+<div class="line my-2" ></div>
+<p>© 2019 Bookmarker Inc.</p>
+</div> 
+
+
+<div class="modal fade" id="staticBackdrop"
+                data-bs-backdrop="static"
+                data-bs-keyboard="false" tabindex="-1"
+                aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="staticBackdropLabel">Are you
+                        sure ?</h5>
+                      <button type="button"class="btn-close" 
+                        data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body fs-6 ">
+                      By clicking "Yes" your data will be lost permenantly !
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button"  class="btn main-color"
+                        data-bs-dismiss="modal">Close</button>
+                      <button type="button" id="deleteAll"
+                        data-bs-dismiss="modal"
+                        class="btn btn-danger"> Yes I'm sure </button>
+                    </div>
+                  </div>
+                </div>
+              </div> 
+
+</div>
+</div>
+
+  <script src="JS/main.js"></script>
+   <script src="JS/bootstrap.bundle.js"></script>
+</body>
+
+</html> 
