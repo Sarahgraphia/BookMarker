@@ -6,14 +6,15 @@ background-image: url(../photos/books.jpg);
 background-attachment: fixed;
 background-size: contain;
 
-
 }
-
 
 
 .layerr{
 
 background-color: rgba(0,0,0,0.5);
+
+
+
 }
 
 #bookMaker,
